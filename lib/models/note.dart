@@ -1,4 +1,5 @@
 /// Model class for Note
+library;
 
 class Note {
   final String id;

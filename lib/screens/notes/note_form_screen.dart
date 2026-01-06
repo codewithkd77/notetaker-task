@@ -4,11 +4,6 @@ import '../../providers/auth_provider.dart';
 import '../../providers/notes_provider.dart';
 import '../../models/note.dart';
 
-/// Note form screen for creating and editing notes
-///
-/// Can be used for both:
-/// - Creating new note (when note parameter is null)
-/// - Editing existing note (when note parameter is provided)
 class NoteFormScreen extends StatefulWidget {
   final Note? note;
 

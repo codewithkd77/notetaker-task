@@ -6,13 +6,6 @@ import '../../providers/notes_provider.dart';
 import '../../models/note.dart';
 import 'note_form_screen.dart';
 
-/// Notes list screen - main screen after login
-///
-/// Displays all user's notes with:
-/// - Search functionality (client-side)
-/// - List of notes with preview
-/// - FAB to add new note
-/// - Logout option in AppBar
 class NotesListScreen extends StatefulWidget {
   const NotesListScreen({super.key});
 
@@ -26,7 +19,7 @@ class _NotesListScreenState extends State<NotesListScreen> {
   @override
   void initState() {
     super.initState();
-    // Fetch notes when screen loads
+
     WidgetsBinding.instance.addPostFrameCallback((_) {
       Provider.of<NotesProvider>(context, listen: false).fetchNotes();
     });

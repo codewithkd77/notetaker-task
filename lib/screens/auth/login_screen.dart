@@ -3,9 +3,6 @@ import 'package:provider/provider.dart';
 import '../../providers/auth_provider.dart';
 import 'signup_screen.dart';
 
-/// Login screen for user authentication
-///
-/// Allows existing users to sign in with email and password
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 

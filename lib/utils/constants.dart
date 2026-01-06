@@ -1,4 +1,5 @@
 /// Configuration constants for Supabase
+library;
 
 class SupabaseConfig {
   static const String supabaseUrl = 'https://adjgasollouiokyadujq.supabase.co';
